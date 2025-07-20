@@ -11,4 +11,8 @@ Been working on this for a little bit working on the schematic. One thing that h
 
 I have designed out the PCB and the Schematic (only the keys so far) and have decided to go with a pico. 
 
-Got pretty far but realized I was building an inverted keyboard which is exactly waht I don't want
+Got pretty far but realized I was building an inverted keyboard which is exactly what I don't want. Fixed it and placed the LEDs
+
+Hours spent: 4 hrs
+
+# 7/20/2025
