@@ -18,3 +18,7 @@ Hours spent: 4 hrs
 # 7/20/2025
 
 I've been working some more on the project. I made a couple of mistakes, but now they are fixed. The LEDs in the PCB are wired and so are the diodes. Working on connecting everything so that I can start adding the smaller bits and pieces to the PCB (art, screw holes, rounded corners, etc.). So far its looking really good. The LEDs are gunna be hard to solder but I should be good.
+
+I got the keyboard basically all wired up I just need the columns and to wire up the ec11 and we gooooooddddd.
+
+Hours spent: 6 hrs
