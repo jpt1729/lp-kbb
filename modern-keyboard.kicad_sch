@@ -3002,18 +3002,6 @@
 		(uuid "48de80f0-9cc1-4726-86b2-2046aea7433f")
 	)
 	(junction
-		(at 255.27 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49522c4e-ca2f-49f8-bb04-22c06a7d349c")
-	)
-	(junction
-		(at 250.19 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a8a15fd-b4ab-4787-a544-6b75adcba0b4")
-	)
-	(junction
 		(at 63.5 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3282,6 +3270,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74546c6e-8033-4cde-81fc-d141852dd47d")
+	)
+	(junction
+		(at 250.19 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "748f5016-d314-4a59-a531-8853bd8dc845")
 	)
 	(junction
 		(at 215.9 144.78)
@@ -3720,6 +3714,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c14f9d14-de70-4aa0-a9a5-15344fac7024")
+	)
+	(junction
+		(at 255.27 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c06788-48e3-418f-b1e1-fe0b672a83b9")
 	)
 	(junction
 		(at 212.09 46.99)
@@ -5483,6 +5483,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 118.11) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7336588e-b8a4-445f-a3cd-e17803de2797")
+	)
+	(wire
+		(pts
 			(xy 170.18 144.78) (xy 177.8 144.78)
 		)
 		(stroke
@@ -5630,6 +5640,16 @@
 			(type default)
 		)
 		(uuid "7c5de87c-e182-42f0-9f93-53452d33e98e")
+	)
+	(wire
+		(pts
+			(xy 250.19 105.41) (xy 250.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd2a504-347a-4d15-b612-a1bc9131bf7e")
 	)
 	(wire
 		(pts
@@ -5843,7 +5863,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 105.41) (xy 250.19 124.46)
+			(xy 250.19 86.36) (xy 250.19 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6180,16 +6200,6 @@
 			(type default)
 		)
 		(uuid "ac1f4c51-9a4d-4974-9324-96b49bf6d4a2")
-	)
-	(wire
-		(pts
-			(xy 250.19 86.36) (xy 250.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac8e023b-9ac1-4945-a50b-d7b16245d2ce")
 	)
 	(wire
 		(pts
@@ -6883,16 +6893,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 118.11) (xy 266.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0317afd-00e8-4b0b-bb4d-8f22b42451ea")
-	)
-	(wire
-		(pts
 			(xy 246.38 118.11) (xy 255.27 118.11)
 		)
 		(stroke
@@ -7065,6 +7065,28 @@
 			)
 		)
 	)
+	(global_label "EC1A"
+		(shape input)
+		(at 269.24 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "090981e9-cef1-4136-84ff-85f4850c2fb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9423 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 2"
 		(shape input)
 		(at 38.1 50.8 180)
@@ -7087,6 +7109,28 @@
 			)
 		)
 	)
+	(global_label "Row 0"
+		(shape input)
+		(at 83.82 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18bd25dd-430a-47de-a7a5-bbc3721752e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 4"
 		(shape input)
 		(at 38.1 55.88 180)
@@ -7105,6 +7149,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EC1B"
+		(shape input)
+		(at 269.24 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "290f0527-cd4d-426d-a05f-5d397aca9ec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.1237 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 3"
+		(shape input)
+		(at 83.82 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a6854ef-5988-4944-971b-2189e762fa16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7263,6 +7351,28 @@
 			)
 		)
 	)
+	(global_label "EC1B"
+		(shape input)
+		(at 83.82 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d412944-e733-42aa-aa93-211f5ff50322")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.7037 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGB"
 		(shape input)
 		(at 25.4 152.4 180)
@@ -7281,6 +7391,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 83.82 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d1608e4-b952-412d-8350-e3bb1aca5b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7435,6 +7567,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 2"
+		(shape input)
+		(at 83.82 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "865cb3b2-bfcb-4121-b0d4-c9016736e6c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7703,6 +7857,28 @@
 			)
 		)
 	)
+	(global_label "EC1A"
+		(shape input)
+		(at 83.82 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c92185fb-0302-4b5f-a961-2b3657808a1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.5223 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 10"
 		(shape input)
 		(at 212.09 36.83 90)
@@ -7765,6 +7941,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 4"
+		(shape input)
+		(at 83.82 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5d15579-6af2-47e5-97e6-b2b523350c46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7318 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7928,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 33.02 175.26 0)
 			(effects
 				(font
@@ -8004,7 +8202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 207.01 76.2 0)
 			(effects
 				(font
@@ -8092,7 +8290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 255.27 95.25 0)
 			(effects
 				(font
@@ -8180,7 +8378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 187.96 114.3 0)
 			(effects
 				(font
@@ -8268,7 +8466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 158.75 55.88 0)
 			(effects
 				(font
@@ -8353,7 +8551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 292.1 152.4 0)
 			(effects
 				(font
@@ -8426,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 276.86 195.58 0)
 			(effects
 				(font
@@ -8476,7 +8674,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 119.38 133.35 90)
+		(at 255.27 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8485,7 +8683,7 @@
 		(fields_autoplaced yes)
 		(uuid "0caff7fe-e35d-4792-8787-5e8bba5640ab")
 		(property "Reference" "D57"
-			(at 121.92 132.0799 90)
+			(at 257.81 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +8692,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 121.92 134.6199 90)
+			(at 257.81 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,8 +8700,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 133.35 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 133.35 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8719,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 119.38 133.35 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,7 +8728,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 119.38 133.35 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +8737,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 133.35 0)
+			(at 255.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8788,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 255.27 76.2 0)
 			(effects
 				(font
@@ -9226,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 200.66 195.58 0)
 			(effects
 				(font
@@ -9438,7 +9636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 227.33 55.88 0)
 			(effects
 				(font
@@ -9594,7 +9792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 227.33 95.25 0)
 			(effects
 				(font
@@ -9747,7 +9945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -10020,7 +10218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 215.9 152.4 0)
 			(effects
 				(font
@@ -10163,7 +10361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 217.17 55.88 0)
 			(effects
 				(font
@@ -10248,7 +10446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -10321,7 +10519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 154.94 152.4 0)
 			(effects
 				(font
@@ -10465,7 +10663,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 255.27 133.35 0)
 			(effects
 				(font
@@ -10618,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 63.5 175.26 0)
 			(effects
 				(font
@@ -10940,7 +11138,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 255.27 114.3 90)
+		(at 119.38 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10949,7 +11147,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d6430b7-1dc4-44aa-adbe-7c1da4f45c04")
 		(property "Reference" "D58"
-			(at 257.81 113.0299 90)
+			(at 121.92 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +11156,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 257.81 115.5699 90)
+			(at 121.92 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,8 +11164,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 255.27 114.3 0)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +11174,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 114.3 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10985,7 +11183,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 255.27 114.3 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +11192,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 255.27 114.3 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11201,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 255.27 114.3 0)
+			(at 119.38 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +11249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -11124,7 +11322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -11197,7 +11395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 154.94 175.26 0)
 			(effects
 				(font
@@ -11273,7 +11471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 168.91 114.3 0)
 			(effects
 				(font
@@ -11429,7 +11627,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 177.8 55.88 0)
 			(effects
 				(font
@@ -11653,7 +11851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -11738,7 +11936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 139.7 218.44 0)
 			(effects
 				(font
@@ -11813,7 +12011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 139.7 133.35 0)
 			(effects
 				(font
@@ -11898,7 +12096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 124.46 152.4 0)
 			(effects
 				(font
@@ -11974,7 +12172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -12198,7 +12396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 158.75 76.2 0)
 			(effects
 				(font
@@ -12283,7 +12481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 170.18 152.4 0)
 			(effects
 				(font
@@ -12356,7 +12554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 48.26 195.58 0)
 			(effects
 				(font
@@ -12500,7 +12698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 198.12 95.25 0)
 			(effects
 				(font
@@ -12588,7 +12786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 76.2 0)
 			(effects
 				(font
@@ -12676,7 +12874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 168.91 133.35 0)
 			(effects
 				(font
@@ -12761,7 +12959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 292.1 195.58 0)
 			(effects
 				(font
@@ -13039,7 +13237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 177.8 95.25 0)
 			(effects
 				(font
@@ -13326,7 +13524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 231.14 175.26 0)
 			(effects
 				(font
@@ -13470,7 +13668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 207.01 55.88 0)
 			(effects
 				(font
@@ -13691,7 +13889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 200.66 175.26 0)
 			(effects
 				(font
@@ -13834,7 +14032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 148.59 114.3 0)
 			(effects
 				(font
@@ -13987,7 +14185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 185.42 175.26 0)
 			(effects
 				(font
@@ -14197,7 +14395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 227.33 133.35 0)
 			(effects
 				(font
@@ -14419,7 +14617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 168.91 55.88 0)
 			(effects
 				(font
@@ -14706,7 +14904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 185.42 152.4 0)
 			(effects
 				(font
@@ -14845,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 246.38 175.26 0)
 			(effects
 				(font
@@ -14918,7 +15116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -14994,7 +15192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 246.38 95.25 0)
 			(effects
 				(font
@@ -15150,7 +15348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 246.38 133.35 0)
 			(effects
 				(font
@@ -15235,7 +15433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 48.26 175.26 0)
 			(effects
 				(font
@@ -15308,7 +15506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 93.98 195.58 0)
 			(effects
 				(font
@@ -15381,7 +15579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 33.02 195.58 0)
 			(effects
 				(font
@@ -15454,7 +15652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 63.5 195.58 0)
 			(effects
 				(font
@@ -15530,7 +15728,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 139.7 114.3 0)
 			(effects
 				(font
@@ -15615,7 +15813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 78.74 175.26 0)
 			(effects
 				(font
@@ -15691,7 +15889,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 55.88 0)
 			(effects
 				(font
@@ -15776,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 215.9 218.44 0)
 			(effects
 				(font
@@ -15852,7 +16050,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -15940,7 +16138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 246.38 76.2 0)
 			(effects
 				(font
@@ -16025,7 +16223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 33.02 218.44 0)
 			(effects
 				(font
@@ -16098,7 +16296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 200.66 218.44 0)
 			(effects
 				(font
@@ -16239,7 +16437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 78.74 218.44 0)
 			(effects
 				(font
@@ -16312,7 +16510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 185.42 218.44 0)
 			(effects
 				(font
@@ -16456,7 +16654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 198.12 55.88 0)
 			(effects
 				(font
@@ -16585,7 +16783,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 116.84 127 0)
+		(at 252.73 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16593,7 +16791,7 @@
 		(dnp no)
 		(uuid "8d4a5929-7477-4bf2-b0fc-6a71bd53fa93")
 		(property "Reference" "SW57"
-			(at 116.84 121.92 0)
+			(at 252.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,7 +16799,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 116.84 121.92 0)
+			(at 252.73 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16610,7 +16808,7 @@
 			)
 		)
 		(property "Footprint" "marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
-			(at 116.84 127 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16619,7 +16817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 127 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16826,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 127 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,7 +16942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 139.7 195.58 0)
 			(effects
 				(font
@@ -16883,7 +17081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 170.18 175.26 0)
 			(effects
 				(font
@@ -16959,7 +17157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 158.75 114.3 0)
 			(effects
 				(font
@@ -17044,7 +17242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 109.22 152.4 0)
 			(effects
 				(font
@@ -17117,7 +17315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 63.5 218.44 0)
 			(effects
 				(font
@@ -17193,7 +17391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 198.12 114.3 0)
 			(effects
 				(font
@@ -17281,7 +17479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 207.01 133.35 0)
 			(effects
 				(font
@@ -17369,7 +17567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -17454,7 +17652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 200.66 152.4 0)
 			(effects
 				(font
@@ -17527,7 +17725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 276.86 175.26 0)
 			(effects
 				(font
@@ -17577,7 +17775,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 252.73 107.95 0)
+		(at 116.84 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17585,7 +17783,7 @@
 		(dnp no)
 		(uuid "97434ea2-774d-49c8-b3e3-cdecce48bbaf")
 		(property "Reference" "SW58"
-			(at 252.73 102.87 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17593,7 +17791,7 @@
 			)
 		)
 		(property "Value" "SW_Push_45deg"
-			(at 252.73 102.87 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17602,7 +17800,7 @@
 			)
 		)
 		(property "Footprint" "marbastlib-xp-gateron_lp:SW_KS33_HS_KS-2P02B01-02_1.25u"
-			(at 252.73 107.95 0)
+			(at 116.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17611,7 +17809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 107.95 0)
+			(at 116.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17620,7 +17818,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 252.73 107.95 0)
+			(at 116.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17668,7 +17866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 154.94 195.58 0)
 			(effects
 				(font
@@ -17812,7 +18010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -17900,7 +18098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 217.17 114.3 0)
 			(effects
 				(font
@@ -17985,7 +18183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 231.14 195.58 0)
 			(effects
 				(font
@@ -18192,7 +18390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 93.98 218.44 0)
 			(effects
 				(font
@@ -18265,7 +18463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 48.26 218.44 0)
 			(effects
 				(font
@@ -18406,7 +18604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 170.18 195.58 0)
 			(effects
 				(font
@@ -18686,7 +18884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 139.7 55.88 0)
 			(effects
 				(font
@@ -18771,7 +18969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 246.38 152.4 0)
 			(effects
 				(font
@@ -18844,7 +19042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 246.38 195.58 0)
 			(effects
 				(font
@@ -18985,7 +19183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 109.22 218.44 0)
 			(effects
 				(font
@@ -19061,7 +19259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -19217,7 +19415,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 227.33 76.2 0)
 			(effects
 				(font
@@ -19305,7 +19503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 177.8 114.3 0)
 			(effects
 				(font
@@ -19527,7 +19725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 187.96 95.25 0)
 			(effects
 				(font
@@ -19612,7 +19810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -19688,7 +19886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 129.54 133.35 0)
 			(effects
 				(font
@@ -19773,7 +19971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 276.86 152.4 0)
 			(effects
 				(font
@@ -19849,7 +20047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 139.7 76.2 0)
 			(effects
 				(font
@@ -19934,7 +20132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 124.46 195.58 0)
 			(effects
 				(font
@@ -20010,7 +20208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 236.22 114.3 0)
 			(effects
 				(font
@@ -20095,7 +20293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 261.62 195.58 0)
 			(effects
 				(font
@@ -20168,7 +20366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 170.18 218.44 0)
 			(effects
 				(font
@@ -20378,7 +20576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -20466,7 +20664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -20554,7 +20752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 207.01 114.3 0)
 			(effects
 				(font
@@ -20707,7 +20905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 261.62 175.26 0)
 			(effects
 				(font
@@ -20851,7 +21049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 236.22 55.88 0)
 			(effects
 				(font
@@ -20980,6 +21178,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 269.24 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3922ed7-8d91-4407-9e65-04a1c581656b")
+		(property "Reference" "#PWR013"
+			(at 275.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "527e09d8-6f07-41dc-805d-af11ea5dc722")
+		)
+		(instances
+			(project ""
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 63.5 152.4 0)
 		(unit 1)
@@ -21004,7 +21269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 63.5 152.4 0)
 			(effects
 				(font
@@ -21080,7 +21345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 148.59 95.25 0)
 			(effects
 				(font
@@ -21168,7 +21433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 236.22 133.35 0)
 			(effects
 				(font
@@ -21321,7 +21586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 93.98 175.26 0)
 			(effects
 				(font
@@ -21397,7 +21662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 217.17 76.2 0)
 			(effects
 				(font
@@ -21482,7 +21747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 33.02 152.4 0)
 			(effects
 				(font
@@ -21555,7 +21820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 154.94 218.44 0)
 			(effects
 				(font
@@ -21628,7 +21893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 124.46 218.44 0)
 			(effects
 				(font
@@ -21704,7 +21969,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 148.59 55.88 0)
 			(effects
 				(font
@@ -21789,7 +22054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 292.1 175.26 0)
 			(effects
 				(font
@@ -21930,7 +22195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 215.9 195.58 0)
 			(effects
 				(font
@@ -22207,7 +22472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 265.43 56.134 0)
 			(effects
 				(font
@@ -22286,7 +22551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -22374,7 +22639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -22462,7 +22727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 168.91 95.25 0)
 			(effects
 				(font
@@ -22550,7 +22815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 198.12 76.2 0)
 			(effects
 				(font
@@ -22638,7 +22903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -22723,7 +22988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 109.22 195.58 0)
 			(effects
 				(font
@@ -22796,7 +23061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 78.74 195.58 0)
 			(effects
 				(font
@@ -22940,7 +23205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -23093,7 +23358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 261.62 152.4 0)
 			(effects
 				(font
@@ -23166,7 +23431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 48.26 152.4 0)
 			(effects
 				(font
@@ -23310,7 +23575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -23395,7 +23660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 185.42 195.58 0)
 			(effects
 				(font
@@ -23471,7 +23736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 246.38 114.3 0)
 			(effects
 				(font
@@ -23694,7 +23959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 217.17 133.35 0)
 			(effects
 				(font
@@ -23782,7 +24047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -23935,7 +24200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 215.9 175.26 0)
 			(effects
 				(font
@@ -24011,7 +24276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -24303,7 +24568,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 119.38 95.25 0)
 			(effects
 				(font
@@ -24391,7 +24656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 168.91 76.2 0)
 			(effects
 				(font
@@ -24476,7 +24741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R"
+		(property "Footprint" "PCM_marbastlib-xp-gateron_lp:LED_KS33_6028R-ROT"
 			(at 78.74 152.4 0)
 			(effects
 				(font
