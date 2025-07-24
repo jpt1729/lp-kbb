@@ -22,3 +22,17 @@ I've been working some more on the project. I made a couple of mistakes, but now
 I got the keyboard basically all wired up I just need the columns and to wire up the ec11 and we gooooooddddd.
 
 Hours spent: 6 hrs
+
+# 7/21/2025
+
+Ok so now we are almost done! So I finished the PCB I decided to go with chamfered edges instead of rounded corners cause I feel like it will look cooler with the case. I want a case with a skeletal design.
+
+Today, I finished wiring up everything putting the screws and all the stabalizers.
+
+Hours spent: 1.5 hrs
+
+# 7/22/2025
+
+Today I want to finish the project which means case design + firmware + art on pcb.
+
+Starting with the Art on the PCB.
