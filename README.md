@@ -4,6 +4,11 @@ This is a low profile 65% keyboard with a rotary encoder (for volume + mute/unmu
 
 I made this project because 1 I just want a custom keyboard and 2 the keyboard I want kinda doesn't exist. I don't haven't really seen these keyboard with the skeletal cases or chamfered edges so I kinda wanted to make it + its texas themed :).
 
+# Photos
+
+<img width="1574" height="806" alt="image" src="https://github.com/user-attachments/assets/44730574-b9b8-4035-9735-31d712726037" />
+<img width="1919" height="849" alt="image" src="https://github.com/user-attachments/assets/57bb6128-29e4-4727-9a4a-e2d853b5eccb" />
+
 
 # BOM
 | Item | Quantity Used | Quantity Purchased | Designator | Part Number / Description | Link | Cost |
