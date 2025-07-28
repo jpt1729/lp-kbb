@@ -5,6 +5,145 @@
 	(uuid "da79b986-ce4e-4dd0-91e7-d06afa1dcb4a")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -8034,6 +8173,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 299.72 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "005f3d47-55e6-44c7-93e7-f81a32b2e3ce")
+		(property "Reference" "#PWR026"
+			(at 299.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 299.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 299.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95b0267a-837b-4587-a144-b3ab6b53525b")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0328a198-fb23-4424-924a-efa544c06b68")
+		(property "Reference" "#PWR029"
+			(at 299.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e20dcb2-7561-446c-b54a-e1c9e72d95f4")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 146.05 88.9 0)
 		(unit 1)
@@ -9765,6 +10036,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 337.82 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220f1c84-9cbd-4261-829a-5dadc08d6bab")
+		(property "Reference" "#PWR028"
+			(at 337.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3f63af5-b05e-4988-a3c3-de0e3a3c37bc")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 227.33 95.25 90)
 		(unit 1)
@@ -10054,6 +10390,72 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 299.72 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2601aff1-1861-4b92-80bf-bffb23ad6113")
+		(property "Reference" "#PWR031"
+			(at 299.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 299.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 299.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dce77f6-62b8-4c8c-947d-d6420f0f4cdf")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11001,6 +11403,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 312.42 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ac39227-f429-426f-88b6-defeff17dddb")
+		(property "Reference" "#PWR023"
+			(at 312.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 312.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 312.42 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce0bad5e-9bbb-46de-a622-b998878719fa")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 175.26 88.9 0)
 		(unit 1)
@@ -11438,6 +11906,142 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 325.12 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "417dbfa5-b919-4b9f-87d5-17923ebe7b79")
+		(property "Reference" "#PWR014"
+			(at 325.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 325.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 325.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05c9d3a2-e148-437b-b7cc-79b442c5f92b")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 337.82 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419f040b-6a9e-4d8d-afef-d54466cde3d5")
+		(property "Reference" "C4"
+			(at 341.63 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 341.63 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 338.7852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 337.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e90e136-21e7-471a-ba28-250d6c79f08d")
+		)
+		(pin "2"
+			(uuid "09acbbd7-cb8a-41bf-876e-19d0ad335ba9")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13865,6 +14469,274 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 337.82 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ac8ee4-ef9e-4bf8-864b-5a5e30426070")
+		(property "Reference" "#PWR025"
+			(at 337.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 337.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 337.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fff49889-9d68-4aba-9136-aca1d0211b79")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61f990f9-5fcc-4409-a0fc-284daeb7d76f")
+		(property "Reference" "#PWR017"
+			(at 337.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62a5c022-4427-4321-aacb-7ec0c6e3ca01")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 325.12 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "625c6e07-b3b3-40e1-ae0d-1c7f6c4e69ac")
+		(property "Reference" "#PWR033"
+			(at 325.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87bf374-ce4e-47a4-8dc3-9c6be19d8a6b")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 337.82 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6279f55c-f9cd-44ee-8c19-98fcba747414")
+		(property "Reference" "C8"
+			(at 341.63 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 341.63 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 338.7852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 337.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4455983e-a194-41a1-9347-87bf77f47df3")
+		)
+		(pin "2"
+			(uuid "5d953ba2-9503-497b-a3d7-822a819ded1d")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 200.66 175.26 0)
 		(unit 1)
@@ -14518,6 +15390,76 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 312.42 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b33c3d6-ce81-441a-a02e-86f42310ef76")
+		(property "Reference" "C2"
+			(at 316.23 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 316.23 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 313.3852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe93d39c-87a5-4e3d-92d8-30836d56fb4d")
+		)
+		(pin "2"
+			(uuid "cfb5fbe4-bc2f-4d8f-89fb-7ab8933f727a")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -15628,6 +16570,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 312.42 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "762b433b-c67d-4a77-88ae-b63246ed9284")
+		(property "Reference" "#PWR032"
+			(at 312.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 312.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f620b82-8e25-42b1-aca6-57a73f6a88f2")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 63.5 195.58 0)
 		(unit 1)
@@ -16709,6 +17717,76 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 312.42 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "893bf623-c08c-49f4-ad32-b9b297a0d655")
+		(property "Reference" "C6"
+			(at 316.23 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 316.23 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 313.3852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 312.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef899cb-d9af-4bbf-9564-a3b2d47d5dad")
+		)
+		(pin "2"
+			(uuid "ca165730-69d7-4846-8319-2993049ac9fa")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17915,6 +18993,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 312.42 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d51251-da1e-494d-a5f2-75196f5e0a37")
+		(property "Reference" "#PWR027"
+			(at 312.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 312.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 312.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f178cd2-9676-4867-a544-b01d95d70827")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 214.63 69.85 0)
 		(unit 1)
@@ -18226,6 +19370,72 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "LED50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 325.12 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d9dfdcd-e14e-4b6c-8332-7c893cda478c")
+		(property "Reference" "#PWR024"
+			(at 325.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 325.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 325.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a735b9ad-ef38-4cdb-9233-771c6f13a11a")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -19698,6 +20908,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 299.72 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad87aa62-476c-4ae8-ba1e-3f0ec4892ba2")
+		(property "Reference" "C1"
+			(at 303.53 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 303.53 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 300.6852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5e47d93-396d-4457-b7fa-b4d2d95f5d4a")
+		)
+		(pin "2"
+			(uuid "268fd3fa-491d-4740-bcd9-b5507fe052f8")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 187.96 95.25 90)
 		(unit 1)
@@ -19941,6 +21221,76 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0528d96-e319-4e70-b5cf-63691dff3230")
+		(property "Reference" "C5"
+			(at 303.53 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 303.53 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 300.6852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "608d1a34-71ac-401e-9075-32dfbdf15848")
+		)
+		(pin "2"
+			(uuid "d6d3b36d-8a17-4c83-b7da-18a51b684f32")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20637,6 +21987,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 312.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ecc465-66b9-40f2-8944-9f47aa1ba771")
+		(property "Reference" "#PWR030"
+			(at 312.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 312.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00686df4-a64b-47f9-bf36-a0a2892693b5")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 337.82 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8e5de85-ab6f-41c4-a0f4-b260b7a7e200")
+		(property "Reference" "#PWR015"
+			(at 337.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 337.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 337.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d2c5c3-f223-4d35-be82-b33d5dcaeafb")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 187.96 55.88 90)
 		(unit 1)
@@ -20719,6 +22201,76 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 325.12 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd30c103-94e2-4e1e-ba48-9ab2e60a29bb")
+		(property "Reference" "C3"
+			(at 328.93 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 328.93 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 326.0852 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 325.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d20f500-6cb5-4653-95c1-f76a834dc086")
+		)
+		(pin "2"
+			(uuid "d3759bb8-1b4f-43f9-99de-c05377d79208")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -22612,6 +24164,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 325.12 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d281e629-1d02-44b3-9a4d-d7b696819d45")
+		(property "Reference" "C7"
+			(at 328.93 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2 uF"
+			(at 328.93 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 326.0852 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 325.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e28f2edc-bd7e-469e-be30-03ebedf9b9f0")
+		)
+		(pin "2"
+			(uuid "0f59c6cc-d0da-4c2a-9457-61ad9c6db8ee")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 207.01 95.25 90)
 		(unit 1)
@@ -23865,6 +25487,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 325.12 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7801ec-9667-402d-a686-a8e5f367f659")
+		(property "Reference" "#PWR016"
+			(at 325.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 325.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 325.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8d1d11-78b7-463d-91ee-9d697c3e7724")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 156.21 69.85 0)
 		(unit 1)
@@ -24535,6 +26223,72 @@
 			(project "modern-keyboard"
 				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
 					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 299.72 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f90c63f8-b741-40f7-b72e-1a8f7e8ba850")
+		(property "Reference" "#PWR022"
+			(at 299.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 299.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 299.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca3b9fbd-be7d-4969-9c35-4da9ea8d1012")
+		)
+		(instances
+			(project "modern-keyboard"
+				(path "/da79b986-ce4e-4dd0-91e7-d06afa1dcb4a"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
