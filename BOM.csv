@@ -7,7 +7,7 @@ EC11,1,1,EC11,EC11 Encoder,,*Owned*
 1N4148 Diodes,1,1,D,Keyboard Diodes,https://www.aliexpress.us/item/2255799955957794.html,$1.48
 Heatset inserts,1,1,,Heatset Inserts,https://www.aliexpress.us/item/3256807534424119.html,$2.71
 Orpheus Pico,1,1,U1,RP2040 Custom Module,,*Owned*
-EC11 Encoder,1,1,ENC2,EC11 (Spare),,*Owned*
+EC11 Encoder,1,1,EC11,EC11 (Spare),,,*Owned*
 Headers,1,1,2.54mm Male/Female Headers,https://www.aliexpress.us/item/2255800687544049.html,$1.99
 3d filament,1,1,3D Filament,https://a.co/d/14iPMzm,$16.14
 PCB (w/o discount) + shipping,1,5,,JLCPCB PCB,,,$30.76
