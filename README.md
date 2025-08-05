@@ -6,8 +6,11 @@ I made this project because 1 I just want a custom keyboard and 2 the keyboard I
 
 # Photos
 
-<img width="1574" height="806" alt="image" src="https://github.com/user-attachments/assets/44730574-b9b8-4035-9735-31d712726037" />
-<img width="1919" height="849" alt="image" src="https://github.com/user-attachments/assets/57bb6128-29e4-4727-9a4a-e2d853b5eccb" />
+<img width="1883" height="783" alt="image" src="https://github.com/user-attachments/assets/6ec00875-37ac-4a82-8a6b-e37d9517b63f" />
+<img width="1690" height="779" alt="image" src="https://github.com/user-attachments/assets/aa73adb4-886f-496a-bf64-a2773bde5b71" />
+<img width="1033" height="615" alt="image" src="https://github.com/user-attachments/assets/c6d05e36-435f-431a-9564-5558d06ef1a1" />
+<img width="1574" height="806" alt="image" src="https://github.com/user-attachments/assets/d77f347c-af54-4b52-b6a9-9bd1e38aa7af" />
+
 
 
 # BOM
@@ -23,9 +26,8 @@ I made this project because 1 I just want a custom keyboard and 2 the keyboard I
 | Orpheus Pico | 1 | 1 | U1 | RP2040 Custom Module |  | *Owned* |
 | EC11 Encoder | 1 | 1 | ENC2 | EC11 (Spare) |  | *Owned* |
 | Headers | 1 | 1 | | 2.54mm Male/Female Headers | [AliExpress](https://www.aliexpress.us/item/2255800687544049.html) | $1.99 |
-| 3d filament | 1 | 1 | | | [Amazon](https://a.co/d/14iPMzm) | $16.14 |
 | PCB (w/o discount) + shipping | 1 | 5 |  | JLCPCB |  | $30.76 |
 | Case | 1 | 1 |  | 3d printed case |  | |
 | Shipping Gateron (+ Gateron service fee) |  |  |  | Shipping from Gateron |  | $11.23 |
 | Shipping AliExpress |  |  |  | Shipping from AliExpress |  | $3.00 |
-| **Total** |  |  |  | | | **$134.76** |
+| **Total** |  |  |  | | | **$118.62** |
