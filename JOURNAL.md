@@ -5,6 +5,8 @@ description: "A low-profile 60% keyboard"
 created_at: "2025-07-18"
 ---
 
+## Total hours: 23 hrs
+
 For transparency sake, I took some of the screen shots after the date because I realized it was a requirement so some stuff might get mixed up!
 
 # 7/19/2025
@@ -67,3 +69,17 @@ Writing the QMK firmware!
 Getting everything written out to be approved. BOM stuff and finding parts. taking screen shots. making sure everything is perfect!!!
 
 **Hours spent: 2 hrs**
+
+## Revisions!
+
+# 8/4/2025
+
+Redesigned the case. Had to do it from scratch and add some "complexity" which for me was including walls that are skeletal (I don't want a top cause why did I add pcb art js to cover it??)
+
+**Hours spent: 4 hrs**
+
+# 8/5/2025
+
+Quick fixes to BOM README.md journal and taking photos and stuff
+
+**Hours spent: 1 hr**
