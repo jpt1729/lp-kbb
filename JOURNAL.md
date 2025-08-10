@@ -75,6 +75,8 @@ Getting everything written out to be approved. BOM stuff and finding parts. taki
 # 8/4/2025
 
 Redesigned the case. Had to do it from scratch and add some "complexity" which for me was including walls that are skeletal (I don't want a top cause why did I add pcb art js to cover it??)
+<img width="1690" height="779" alt="image" src="https://github.com/user-attachments/assets/24f62b34-1d19-47d9-8c09-50192fdb07da" />
+<img width="1883" height="783" alt="image" src="https://github.com/user-attachments/assets/8061cfac-0829-429f-956a-925e5f0050b7" />
 
 **Hours spent: 4 hrs**
 
